@@ -5,7 +5,7 @@ in case of detected motion the intruder gets recorded with pictures and/or video
 
 Setup:
 
-Raspberry Pi2 or Pi3 with motionos https://github.com/ccrisan/motioneyeos
+Raspberry Pi2 or Pi3 with motioneyeos https://github.com/ccrisan/motioneyeos
 
 IP Cam(s)
 
