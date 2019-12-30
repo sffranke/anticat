@@ -9,6 +9,8 @@ IP Cam(s)
 Solenoid valve (for switching the water on and off) + Powersupply
 Waterhose
 
+![circuit](catattac.png?raw=true "circuit")
+
 tbc
 
 
