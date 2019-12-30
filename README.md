@@ -47,4 +47,3 @@ To send a pic using telegran bot:
 
 
 
-
