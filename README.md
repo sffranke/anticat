@@ -14,7 +14,7 @@ Waterhose
 ![circuit](catattac.png?raw=true "circuit")
 
 The script:
-`#!/usr/bin/python                                                               
+```#!/usr/bin/python                                                               
 
 # Originally from https://norris.org.au/cattack/
 # import libraries                                                              
@@ -38,11 +38,11 @@ time.sleep(5)
 GPIO.output(12, GPIO.HIGH)                                                      
 time.sleep(5)                                                                   
 GPIO.output(12, GPIO.LOW) 
-`
+```
 
 To send a pic using telegran bot:
 
-`curl -s -X POST "https://api.telegram.org/<Bot_token>/sendPhoto" -F chat_id=<chat_ID> -F photo="@/data/output/Camera3/cat.jpg" -F caption="gotcha!!!"`
+```curl -s -X POST "https://api.telegram.org/<Bot_token>/sendPhoto" -F chat_id=<chat_ID> -F photo="@/data/output/Camera3/cat.jpg" -F caption="gotcha!!!"```
 
 
 
