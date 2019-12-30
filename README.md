@@ -4,17 +4,24 @@ My version of great https://norris.org.au/cattack/ just to keep the neighbours c
 in case of detected motion the intruder gets recorded with pictures and/or videos. A script is triggered by the motioneye software. This script waits some seconds to give the cat time to sit down. Then the script opens the valve of the waterhose and the cat gets showered. A picture of the running cat can be send to me by telegramm messenger.
 
 Setup:
-Raspberry Pi2 with motionos https://github.com/ccrisan/motioneyeos
+
+Raspberry Pi2 or Pi3 with motionos https://github.com/ccrisan/motioneyeos
+
 IP Cam(s)
+
 A garden
+
 Neighbours cats
+
 Solenoid valve (for switching the water on and off) + Powersupply
+
 Waterhose
 
 ![circuit](catattac.png?raw=true "circuit")
 
 The script:
-```#!/usr/bin/python                                                               
+```
+#!/usr/bin/python                                                               
 
 # Originally from https://norris.org.au/cattack/
 # import libraries                                                              
@@ -42,7 +49,9 @@ GPIO.output(12, GPIO.LOW)
 
 To send a pic using telegran bot:
 
-```curl -s -X POST "https://api.telegram.org/<Bot_token>/sendPhoto" -F chat_id=<chat_ID> -F photo="@/data/output/Camera3/cat.jpg" -F caption="gotcha!!!"```
+```
+curl -s -X POST "https://api.telegram.org/<Bot_token>/sendPhoto" -F chat_id=<chat_ID> -F photo="@/data/output/Camera3/cat.jpg" -F caption="gotcha!!!"
+```
 
 
 
