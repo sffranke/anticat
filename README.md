@@ -19,7 +19,8 @@ Solenoid valve (for switching the water on and off) + Powersupply
 
 Waterhose
 
-![circuit](catattac.png?raw=true "circuit")
+<img src="catattac.png"  width="400">
+
 
 The script:
 ```
