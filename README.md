@@ -3,11 +3,8 @@
 My version of great https://norris.org.au/cattack/ just to keep the neighbours cats away :)
 in case of detected motion the intruder gets recorded with pictures and/or videos. A script is triggered by the motioneye software. This script waits some seconds to give the cat time to sit down. Then the script opens the valve of the waterhose and the cat gets showered. A picture of the running cat can be send to me by telegram messenger.
 
-<img src="katze.JPG"  width="150">
- <video width="150" height="100" controls>
-  <source src="katze.mp4" type="video/mp4">
-</video> 
-
+<img src="katze.gif"  width="300">
+ 
 Setup:
 
 Raspberry Pi2 or Pi3 with motioneyeos https://github.com/ccrisan/motioneyeos
