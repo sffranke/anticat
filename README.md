@@ -53,11 +53,20 @@ GPIO.output(12, GPIO.LOW)
 Or remote GPIO: 
 
 ```
-import pigpio
-import time
+#!/usr/bin/python3                                                           
 
-PI = pigpio.pi("rpi", 8888)
-PI.write(17, 1)
+import RPi.GPIO as GPIO                                                         
+import time                                                                     
+import pigpio
+
+PI = pigpio.pi("192.168.1.32", 8888)
+
+p=24
+
+time.sleep(5)                                                                   
+PI.write(p, 1)                                                      
+time.sleep(5)                                                                   
+PI.write(p, 0)
 ```
 
 To send the pic using telegram bot:
