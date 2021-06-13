@@ -50,6 +50,16 @@ time.sleep(5)
 GPIO.output(12, GPIO.LOW) 
 ```
 
+Or remote GPIO: 
+
+```
+import pigpio
+import time
+
+PI = pigpio.pi("rpi", 8888)
+PI.write(17, 1)
+```
+
 To send the pic using telegram bot:
 
 ```
