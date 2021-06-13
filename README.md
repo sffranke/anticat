@@ -1,7 +1,7 @@
 # CATATTAC
 
 My version of great https://norris.org.au/cattack/ just to keep the neighbours cats away :)
-in case of detected motion the intruder gets recorded with pictures and/or videos. A script is triggered by the motioneye software. This script waits some seconds to give the cat time to sit down. Then the script opens the valve of the waterhose and the cat gets showered. A picture of the running cat can be send to me by telegram messenger.
+In case of motion detected the intruder gets recorded with pictures and/or videos. A script is triggered by the motioneye software. This script waits some seconds to give the cat time to sit down. Then the script opens the valve of the waterhose and the cat gets showered. A picture of the running cat can be send to me by telegram messenger.
 
 <img src="katze.gif"  width="300">
  
